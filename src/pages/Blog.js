@@ -8,7 +8,6 @@ import axios from 'axios';
 
 import { BASE_URL } from '../config/apiConfig';
 
- 
 
 const Blog = () => {
 
