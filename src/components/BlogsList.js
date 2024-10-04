@@ -52,7 +52,7 @@ const handlePreviousPage =()=>{
 
       {blogs === null ? (<NoBlogs />) : (
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 h-12 lg:grid-cols-4 p-2 gap-4 bg-gray-100 min-h-screen">
+          <div className="grid grid-cols-1 sm:grid-cols-2 h-22 lg:grid-cols-4 p-2 gap-4 bg-gray-100 min-h-screen">
 
       {currentBlogs.map((blog) => (
 

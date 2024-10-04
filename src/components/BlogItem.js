@@ -28,7 +28,6 @@ const BlogItem = ({
 
   }) => {
 
- 
 
     const dateString = createdAt.split('T')[0];
 
@@ -36,7 +35,7 @@ const BlogItem = ({
 
   return (
 
-    <Link className='no-underline text-black' >
+    <Link className='no-underline text-black' to={"/blog/"+id}>
 
     <div key={id} className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
 

@@ -14,7 +14,7 @@ import { BASE_URL } from '../config/apiConfig';
 
 const MyPosts = () => {
 
-  const GET_BLOGS_URL = "posts";
+  const GET_BLOGS_URL = "posts/";
 
     const { id } = useParams();
 
