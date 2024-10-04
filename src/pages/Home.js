@@ -16,7 +16,7 @@ import axios from 'axios';
 
 function Home(){
 
-    const GET_BLOGS_URL = "posts";
+    const GET_BLOGS_URL = "posts/";
 
     const [blogs, setBlogs] = useState([]);
 
