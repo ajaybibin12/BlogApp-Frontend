@@ -43,13 +43,9 @@ const MyPosts = () => {
       const authorId = localStorage.getItem("user_id");
 
         await axios.get(BASE_URL+GET_BLOGS_URL,{
-
-          headers:{
-
-            Authorization: `Bearer ${localStorage.getItem("authtoken")}`,
-
-          },
-
+          headers: {
+            'Content-Type': 'application/json',
+          }
 }).then(response =>{
 
   if(response.status ===200){

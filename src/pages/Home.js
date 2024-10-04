@@ -26,7 +26,11 @@ function Home(){
 
       const getBlogs = async () => {
 
-        await axios.get(BASE_URL+GET_BLOGS_URL).then(response =>{
+        await axios.get(BASE_URL+GET_BLOGS_URL,{
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        }).then(response =>{
 
           if(response.status===200){
 
