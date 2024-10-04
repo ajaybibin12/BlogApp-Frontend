@@ -150,8 +150,6 @@ const navigate = useNavigate();
 
               <Link className="text-black no-underline" to="/">Home</Link>
 
-              <Link className="text-black no-underline" to="/">About</Link>
-
               <Link className="text-black no-underline" to="/myposts">My Posts</Link>
 
             <div className="flex items-center space-x-2">
